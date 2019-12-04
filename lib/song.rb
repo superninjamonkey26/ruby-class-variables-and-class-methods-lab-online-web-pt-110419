@@ -31,15 +31,15 @@ class Song
     end
     histogram
   end
-  def self.artist_count
-    histogram = {}
-    @@artists.each do |artist|
-      if histogram[artist]
-        histogram[artist] += 1
-      else
-        histogram[artist] = 1
-      end
-    end
-    artist_count
+#  def self.artist_count
+#    histogram = {}
+#    @@artists.each do |artist|
+#      if histogram[artist]
+#        histogram[artist] += 1
+#      else
+#        histogram[artist] = 1
+#      end
+ #   end
+#    artist_count
   end
 end
