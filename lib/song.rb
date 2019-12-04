@@ -24,6 +24,8 @@ class Song
 #    @@genre_count.uniq!
     histogram = {}
     @@genres.each do |genre|
+      if histogram[genre]
+        
   end
 #  def name
 #    @name
