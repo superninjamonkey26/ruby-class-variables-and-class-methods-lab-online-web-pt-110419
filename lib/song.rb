@@ -31,4 +31,5 @@ class Song
     end
 #    histogram
   end
+  def self.artist_count
 end
