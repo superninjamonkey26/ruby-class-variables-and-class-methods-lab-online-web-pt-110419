@@ -26,6 +26,8 @@ class Song
     @@genres.each do |genre|
       if histogram[genre]
         histogram[genre] =+ 1
+      else
+        
       end
     end
   end
