@@ -23,6 +23,7 @@ class Song
   def self.genre_count
 #    @@genre_count.uniq!
     histogram = {}
+    histogram << genre_count
   end
 #  def name
 #    @name
