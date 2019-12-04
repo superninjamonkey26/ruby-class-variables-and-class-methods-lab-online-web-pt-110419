@@ -35,6 +35,10 @@ class Song
     histogram = {}
     @@artists.each do |artist|
       if histogram[artist]
-        histogram[artist] +=
+        histogram[artist] += 1
+      else
+        histogram[artist] = 1
+      end
+    end
   end
 end
