@@ -21,7 +21,8 @@ class Song
     @@artists.uniq!
   end
   def self.genre_count
-    @@genre_count.uniq!
+#    @@genre_count.uniq!
+    histogram = {}
   end
 #  def name
 #    @name
