@@ -25,7 +25,9 @@ class Song
     histogram = {}
     @@genres.each do |genre|
       if histogram[genre]
-        
+        histogram[genre] =+ 1
+      end
+    end
   end
 #  def name
 #    @name
