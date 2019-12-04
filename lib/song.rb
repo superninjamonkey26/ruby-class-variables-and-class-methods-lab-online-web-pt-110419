@@ -32,4 +32,6 @@ class Song
 #    histogram
   end
   def self.artist_count
+    histogram = {}
+  end
 end
