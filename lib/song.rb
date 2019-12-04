@@ -24,7 +24,7 @@ class Song
     histogram = {}
     @@genres.each do |genre|
       if histogram[genre]
-        histogram[genre] =+ 1
+        histogram[genre] += 1
       else
         histogram[genre] = 1
       end
@@ -33,5 +33,8 @@ class Song
   end
   def self.artist_count
     histogram = {}
+    @@artists.each do |artist|
+      if histogram[artist]
+        histogram[artist] +=
   end
 end
